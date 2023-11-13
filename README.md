@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="150" height="150" src="./assets/app_icon.svg">
+</p>
+
 # self-sizing-modal
 
 This repository demonstrates how to create a modally-presented-view that takes as much space as needed. It is specifically designed to answer [this stackoverflow question](https://stackoverflow.com/questions/76907286/make-uiview-stretch-vertically-until-a-certain-margin/77471489#77471489).
