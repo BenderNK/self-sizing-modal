@@ -31,6 +31,7 @@ class ModalViewController: UIViewController {
     
 
     private func configureContainerView() {
+        //containerView is declared at the view controller level
         containerView = UIView()
         containerView.backgroundColor = .systemBackground
         containerView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMinXMinYCorner, .layerMaxXMaxYCorner, .layerMaxXMinYCorner]
@@ -82,7 +83,6 @@ class ModalViewController: UIViewController {
         let textView = UITextView()
         textView.isScrollEnabled = false
         textView.font = UIFont.preferredFont(forTextStyle: .callout)
-        //textView.setContentCompressionResistancePriority(UILayoutPriority(751), for: .vertical)
         if containsLongText {
             textView.text = """
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut lectus arcu bibendum at varius vel pharetra. Ipsum dolor sit amet consectetur. Feugiat vivamus at augue eget arcu dictum varius. Nibh sit amet commodo nulla facilisi nullam vehicula. Cursus in hac habitasse platea dictumst. Placerat orci nulla pellentesque dignissim enim sit amet venenatis urna. Quis eleifend quam adipiscing vitae proin. Dignissim convallis aenean et tortor at risus. Faucibus in ornare quam viverra orci sagittis eu volutpat. Mauris in aliquam sem fringilla ut. Arcu dictum varius duis at consectetur lorem donec massa sapien. Elit pellentesque habitant morbi tristique senectus et. Purus in mollis nunc sed id semper risus in hendrerit.
